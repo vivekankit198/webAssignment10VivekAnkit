@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@325&display=swap');
+
+        * {
+            margin: 0px 0px;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'SansSerif', serif;
+        }
+        body {
+            margin: 45px 45px;
+            background-color: rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
+            letter-spacing: 0.1px;
+        }
+
+        h1,
+        h3{
+            color: rgb(255, 255, 255);
+        }
+        p {
+            padding: 15px;
+        }
+        .example{
+            background-color: rgb(40, 44, 52);
+            color: rgba(22,181,181,0.82);
+            font-size: 15px;
+            border-radius: 6px;
+            border: 2px solid #f2f2f2;
+        }
+      .var {
+        color: rgb(211, 129, 211);
+}
+
+        .symbol {
+            color: lightblue;
+        }
+
+        .name {
+            color: #3871ff;
+        }
+
+        .string {
+            color: #ffb553;
+        }
+
+        .in {
+            margin-left: 25px;
+        }
+        button {
+            padding: 12px 50px;
+            background-color: #2c3a47;
+            animation: glowing 20s linear infinite;
+            border: 2px solid #e66767;
+            color: #f2f2f2;
+            border-radius: 6px;
+            font-size: 12px;
+            transition: .3s linear;
+            display: inline-block;
+            opacity: 93%;
+        }
+        button:hover{
+            transform: scale(1.05);
+        }
+
+        .hlight {
+            background: rgba(152, 248, 255, 0.363);
+        }
+        .img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+<div style="margin: 0px 20%;">
+    <p style="text-align: right; padding: 15px;">
+        Name: Vivek Ankit<br>
+        Roll No: 2006198 <br>
+    </p>
+
+    <h1 style="padding: 40px; text-align: center;">Question</h1>
+    <p class="quest">Q) Create an object ‘Person’ in Java Script,
+        which will have  ‘FirstName’, ’LastName’ and ‘Office Address’ as properties within it.
+        Create three Persons and print all those three properties.</p>
+
+    <hr>
+    <hr>
+    <p style="padding: 15px;">
+    <h3>Code:</h3>
+    <p>
+    <div class="example">
+        <div style="padding: 15px;">
+            <span class="var">var </span> person1 <span class="symbol">= {</span><br>
+            <div class="in">
+                FirstName: <span class="symbol">'</span><span class="string">Vivek</span><span
+                    class="symbol">',</span><br>
+                LastName: <span class="symbol">'</span><span class="string">Ankit</span><span
+                    class="symbol">',</span><br>
+                OfficeAdress: <span class="symbol">'</span><span class="string"> Gaya, Bihar 823001</span><span
+                    class="symbol">'</span><br>
+            </div>
+            <span class="symbol">}</span> <br>
+            <br>
+
+            <span class="var">var </span> person2 <span class="symbol">= {</span><br>
+            <div class="in">
+                FirstName: <span class="symbol">'</span><span class="string">Anjali</span><span
+                    class="symbol">',</span><br>
+                LastName: <span class="symbol">'</span><span class="string">Kumari</span><span
+                    class="symbol">',</span><br>
+                OfficeAdress: <span class="symbol">'</span><span class="string">Patna, Bihar 836281</span><span
+                    class="symbol">'</span><br>
+            </div>
+            <span class="symbol">}</span> <br>
+            <br>
+
+            <span class="var">var </span> person3 <span class="symbol">= {</span><br>
+            <div class="in">
+                FirstName: <span class="symbol">'</span><span class="string">Jayesh</span><span
+                    class="symbol">',</span><br>
+                LastName: <span class="symbol">'</span><span class="string">Nigam</span><span
+                    class="symbol">',</span><br>
+                OfficeAdress: <span class="symbol">'</span><span class="string">Mumbai, Maharashtra
+                        400083</span><span class="symbol">'</span><br>
+            </div>
+            <span class="symbol">}</span> <br>
+            <br>
+
+            console<span class="symbol">.</span><span class="name">log</span>(person1) <span
+                class="symbol">;</span><br>
+            console<span class="symbol">.</span><span class="name">log</span>(person2) <span
+                class="symbol">;</span><br>
+            console<span class="symbol">.</span><span class="name">log</span>(person3) <span
+                class="symbol">;</span><br>
+        </div>
+    </div>
+    </p>
+    </p>
+    <hr>
+    <hr>
+
+
+    <p style="padding: 15px;">
+    <h3>Output Screenshot: </h3> <br>
+    <h4 style="color: antiquewhite;">(Also check console for same output)</h4>
+    <img src="consoleout.png" class="img" alt="">
+    </p>
+    <hr>
+    <hr>
+    <div style="text-align: center; padding: 15px;">
+            <a href="https://github.com/vivekankit198/webAssignment10VivekAnkit" style="text-decoration: none;">
+                <button>
+                    View Code
+                </button>
+            </a>
+    </div>
+</div>
+<script src="perobj.js"></script>
+</body>
+</html>
